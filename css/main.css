@@ -13,4 +13,28 @@ a {
 ul {
   list-style: none;
 }
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+  color: #4c4e61;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-weight: 600;
+}
 /*# sourceMappingURL=main.css.map */
