@@ -32,7 +32,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem;
+  padding-inline: 2rem;
 }
 
 h1 {
@@ -132,5 +132,21 @@ h1 {
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin-top: 2rem;
+}
+
+@media (max-width: 56.25rem) {
+  body {
+    padding-block: 4.875rem;
+  }
+  .header .title {
+    font-size: 1.5rem;
+  }
+  .cards {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .cards .card {
+    grid-row: auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */

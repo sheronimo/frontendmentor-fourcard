@@ -1,0 +1,19 @@
+@media (max-width: 56.25rem) {
+	body {
+		padding-block: 4.875rem;
+	}
+
+	.header {
+		.title {
+			font-size: 1.5rem;
+		}
+	}
+
+	.cards {
+		grid-template-columns: 1fr;
+
+		.card {
+			grid-row: auto;
+		}
+	}
+}
