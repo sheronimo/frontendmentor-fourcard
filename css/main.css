@@ -37,4 +37,23 @@ body {
 h1 {
   font-weight: 600;
 }
+
+.header {
+  text-align: center;
+  max-width: 35rem;
+}
+
+.header .title {
+  font-size: 2rem;
+}
+
+.header .title-thin {
+  display: block;
+  font-weight: 200;
+}
+
+.header .lead {
+  color: #a3a5ae;
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=main.css.map */
