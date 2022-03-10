@@ -45,7 +45,7 @@ h1 {
 }
 
 .header .title {
-  font-size: 2rem;
+  font-size: 2.1875rem;
 }
 
 .header .title-thin {
@@ -54,6 +54,7 @@ h1 {
 }
 
 .header .lead {
+  font-size: 0.9375rem;
   color: #a3a5ae;
   margin-top: 1rem;
 }

@@ -7,7 +7,7 @@
 	max-width: 35rem;
 
 	.title {
-		font-size: 2rem;
+		font-size: 2.1875rem;
 
 		&-thin {
 			display: block;
@@ -16,6 +16,7 @@
 	}
 
 	.lead {
+		font-size: 0.9375rem;
 		color: $clr-neutral-400;
 		margin-top: 1rem;
 	}
