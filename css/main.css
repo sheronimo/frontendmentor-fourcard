@@ -94,22 +94,6 @@ h1 {
   margin-top: 2rem;
 }
 
-.footer {
-  margin-top: 1.5rem;
-  text-align: center;
-}
-.footer .attribution {
-  font-size: 0.875rem;
-  color: hsl(229deg, 6%, 66%);
-}
-.footer .attribution a {
-  color: hsl(234deg, 12%, 34%);
-  transition: color 0.3s ease;
-}
-.footer .attribution a:hover {
-  color: hsl(212deg, 86%, 64%);
-}
-
 @media (max-width: 56.25rem) {
   body {
     padding-block: 4.875rem;

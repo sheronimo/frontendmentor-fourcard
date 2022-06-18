@@ -78,23 +78,4 @@
 	}
 }
 
-.footer {
-	margin-top: 1.5rem;
-	text-align: center;
-
-	.attribution {
-		font-size: 0.875rem;
-		color: $clr-neutral-400;
-
-		a {
-			color: $clr-neutral-200;
-			transition: color 0.3s ease;
-
-			&:hover {
-				color: $clr-card-blue;
-			}
-		}
-	}
-}
-
 @import 'media';
